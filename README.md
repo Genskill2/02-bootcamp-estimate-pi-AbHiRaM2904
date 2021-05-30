@@ -19,7 +19,7 @@ will be and higher the accuracy of the estimate.
 
 ### Exercise
 
-Write a function called `wallis` in the file `estimate.py`.  It will
+Write a function called `wal lis` in the file `estimate.py`.  It will
 take the number of iterations and return the estimate of pi using the
 wallis formula.
 
