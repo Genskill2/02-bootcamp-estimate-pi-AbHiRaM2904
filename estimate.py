@@ -29,7 +29,7 @@ def monte_carlo(i):
 
 
 
-claiss TestWallis(unittest.TestCase):
+class TestWallis(unittest.TestCase):
     def test_low_iters(self):
         for i in range(0, 5):
             pi = wallis(i)
