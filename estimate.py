@@ -1,18 +1,27 @@
 import math
 import unittest
 
+def wallis(i):
 
+    pi=1
+    while i!=0:
+        pi*=((4*i*i)/(4*i*i-1))
+        i=i-1
+    return(pi*2) 
 
-
-
-
-
-
-
-
-
-
-
+def monte_carlo(i):
+    n=i
+    c=0
+    while i!=0:
+        x=random.random()
+        y=random.random()
+        k=x**2+y**2
+        d=math.sqrt(k)
+        if d<=1:
+            c+=1
+        i=i-1
+    r=c/n
+    return(4*r)
 
 
 
